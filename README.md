@@ -1,1 +1,1 @@
-# gatewaysManger
+# gateway-management-api
