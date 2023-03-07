@@ -15,20 +15,16 @@
 ## Project Structer
 Here the project structure 
 ```bash
-  
 ├─gateway-service
 │   ├── package.json
 │   ├── src
 │   │   ├── controllers
-│   │   │   ├── gatewayController.js
-│   │   │   └── peripheralController.js
+│   │   │   └── gatewayController.js
 │   │   ├── models
-│   │   │   ├── gatewayModel.js
-│   │   │   └── peripheralModel.js
+│   │   │   └── gatewayModel.js
 │   │   ├── routes
-│   │   │   ├── gatewayRoutes.js
-│   │   │   └── peripheralRoutes.js
-│   │   ├── app.js
+│   │   │   └── gatewayRoutes.js
+│   │   ├── index.js
 │   │   ├── kafka-producer.js
 │   │   └── swagger
 │   │       └── gateway.swagger.yaml
@@ -46,7 +42,7 @@ Here the project structure
 │   │   │   └── peripheralModel.js
 │   │   ├── routes
 │   │   │   └── peripheralRoutes.js
-│   │   ├── app.js
+│   │   ├── index.js
 │   │   ├── kafka-consumer.js
 │   │   └── swagger
 │   │       └── peripheral.swagger.yaml
@@ -64,7 +60,7 @@ Here the project structure
 │   │   │   └── queryModel.js
 │   │   ├── routes
 │   │   │   └── queryRoutes.js
-│   │   ├── app.js
+│   │   ├── index.js
 │   │   ├── kafka-consumer.js
 │   │   └── swagger
 │   │       └── query.swagger.yaml
@@ -75,7 +71,6 @@ Here the project structure
 │   └── README.md
 ├── docker-compose.yml
 └── README.md
-
 ```
 
 ## License
