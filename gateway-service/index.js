@@ -1,9 +1,9 @@
-const express = require("express");
-const bodyParser = require("body-parser");
+import express from 'express'
+import bodyParser from "body-parser";
 import morgan from 'morgan';
 import dotenv from 'dotenv';
 
-import dbConnection from './src/database/mongodb.config'
+import dbConnection from './src/database/mongodb.config.js';
 
 dotenv.config();
 
