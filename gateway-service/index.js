@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.use(morgan('dev'));
 
 // Routes
-app.use('/api/gateways', gatewayRoutes);
+app.use('/api/gateways', require('./src/routers/gatewayRoutes'));
 
 // Error handling
 app.use((req, res, next) => {
