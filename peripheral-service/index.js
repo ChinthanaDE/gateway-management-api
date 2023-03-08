@@ -17,7 +17,7 @@ app.use(bodyParser.json());
 app.use(morgan('dev'));
 
 // Routes
-app.use('/api/gateways', require('./src/routers/peripheralRoutes'));
+app.use('/api/device', require('./src/routers/peripheralRoutes'));
 
 // Error handling
 app.use((req, res, next) => {
